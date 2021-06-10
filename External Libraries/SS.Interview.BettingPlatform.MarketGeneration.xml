@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SS.Interview.BettingPlatform.MarketGeneration</name>
+    </assembly>
+    <members>
+        <member name="T:SS.Interview.BettingPlatform.MarketGeneration.Generators.FootballMarketGenerator">
+            <summary>
+            Generates markets for football fixtures
+            </summary>
+        </member>
+        <member name="M:SS.Interview.BettingPlatform.MarketGeneration.Generators.FootballMarketGenerator.#ctor">
+            <summary>
+            Initializes a new instance to generate markets for football fixtures
+            </summary>
+        </member>
+        <member name="M:SS.Interview.BettingPlatform.MarketGeneration.Generators.FootballMarketGenerator.GetMarkets(System.String)">
+            <summary>
+            Get markets for a specified football fixture
+            </summary>
+            <param name="fixture">
+            The fixture identifier
+            </param>
+            <returns>
+            An array containing the resulting markets
+            </returns>
+        </member>
+        <member name="T:SS.Interview.BettingPlatform.MarketGeneration.Generators.TennisMarketGenerator">
+            <summary>
+            Generates markets for tennis fixtures
+            </summary>
+        </member>
+        <member name="M:SS.Interview.BettingPlatform.MarketGeneration.Generators.TennisMarketGenerator.#ctor">
+            <summary>
+            Initializes a new instance to generate markets for tennis fixtures
+            </summary>
+        </member>
+        <member name="M:SS.Interview.BettingPlatform.MarketGeneration.Generators.TennisMarketGenerator.GetMarkets(System.String)">
+            <summary>
+            Get markets for a specified tennis fixture
+            </summary>
+            <param name="fixture">
+            The fixture identifier
+            </param>
+            <returns>
+            A set containing the resulting markets
+            </returns>
+        </member>
+        <member name="T:SS.Interview.BettingPlatform.MarketGeneration.Models.Market">
+            <summary>
+            Represents a market that consumers can bet on
+            </summary>
+        </member>
+        <member name="P:SS.Interview.BettingPlatform.MarketGeneration.Models.Market.Id">
+            <summary>
+            The market identifier
+            </summary>
+        </member>
+        <member name="P:SS.Interview.BettingPlatform.MarketGeneration.Models.Market.Selections">
+            <summary>
+            The selections available within this market
+            </summary>
+        </member>
+        <member name="T:SS.Interview.BettingPlatform.MarketGeneration.Models.Selection">
+            <summary>
+            Represents a selection (betting option) within a market
+            </summary>
+        </member>
+        <member name="P:SS.Interview.BettingPlatform.MarketGeneration.Models.Selection.Id">
+            <summary>
+            The selection identifier
+            </summary>
+        </member>
+        <member name="P:SS.Interview.BettingPlatform.MarketGeneration.Models.Selection.Probability">
+            <summary>
+            The probability of the selection occuring
+            </summary>
+        </member>
+    </members>
+</doc>
